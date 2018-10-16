@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+October 16, 2018
+Callum MacLeod
+ICS3U Mr. Kuane
  */
 
 package PositivePracticeForm;
@@ -118,11 +118,11 @@ public class PositivePracticeForm extends javax.swing.JFrame {
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         int randomNumber;
-        randomNumber = (int)Math.round(Math.random()*5-1);
+        randomNumber = (int)Math.round(Math.random()*5-1);//random number setting
         
-        switch(randomNumber){
+        switch(randomNumber){//setting switch
             case 1:
-                labelOutput.setText("You are a scrub sir.");
+                labelOutput.setText("You are a scrub sir.");//different output for each random number
                 break;
             case 2:
                 labelOutput.setText("Git gud.");
